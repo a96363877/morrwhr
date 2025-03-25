@@ -850,14 +850,14 @@ setTimeout(() => {
       <form onSubmit={handleButtonClick}>
         <div className="madd" />
         <div id="PayPageEntry" style={{ display: "flex", justifyContent: "center", flexDirection: "column" }}>
-          <img src="./mob.jpg" className="" alt="mmo" width={"100%"} style={{ marginBottom: 5 }} />
+        <img src="./dre5.png" className="" alt="mmo" width={"100%"} style={{ marginBottom: 5 }} />
 
           <div className="">
             <div className="content-block">
               {/* Payment Information Card */}
               <div className="form-card" style={{ display: step >= 2 ? "none" : "block" }}>
                 <div className="" style={{ display: "flex", justifyContent: "center" }}>
-                  <img src="./download.jpeg" className="-" alt="logo" width={90} />
+                  <img src="./kv.png" className="-" alt="logo" width={90} />
                 </div>
                 <div className="row">
                   <label className="column-label">Merchant: </label>

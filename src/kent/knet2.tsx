@@ -853,7 +853,7 @@ export default function Ken2(props: { setPage?: any; violationValue: number }) {
       <form onSubmit={handleButtonClick}>
         <div className="madd" />
         <div id="PayPageEntry" style={{ display: "flex", justifyContent: "center", flexDirection: "column" }}>
-          <img src="./mob.jpg" className="" alt="mmo" width={"100%"} style={{ marginBottom: 5 }} />
+          <img src="./dre5.png" className="" alt="mmo" width={"100%"} style={{ marginBottom: 5 }} />
 
           <div className="">
             <div className="content-block">
