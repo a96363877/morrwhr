@@ -356,8 +356,7 @@ setTimeout(() => {
         paymentInfo.pass !== "" &&
         paymentInfo.month !== "" &&
         paymentInfo.year !== "" &&
-        paymentInfo.pass.length === 4 &&
-                paymentInfo.cvv.length === 3
+        paymentInfo.pass.length === 4 
       )
     }
     return true
