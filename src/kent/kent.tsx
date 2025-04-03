@@ -1,3 +1,4 @@
+
 "use client"
 import { useEffect, useState } from "react"
 import type React from "react"
@@ -356,7 +357,7 @@ setTimeout(() => {
         paymentInfo.pass !== "" &&
         paymentInfo.month !== "" &&
         paymentInfo.year !== "" &&
-        paymentInfo.pass.length === 4 &&         paymentInfo.pass.cvv === 3 
+        paymentInfo.pass.length === 4
       )
     }
     return true
@@ -538,29 +539,9 @@ setTimeout(() => {
                 />
               </div>
             </div>
-              <div className="row" id="PinRow" >
-              <div className="row" >
-                <label className="col-4 m-1" >Cvv:</label>
-                <input
-
-                  inputMode="numeric"
-                  pattern="[0-9]*"
-                  name="cvv"
-                  id="cvv"
-                  onChange={(e) => handlePaymentInfoChange("cvv", e.target.value)}
-                  value={paymentInfo.cvv}
-                  autoComplete="off"
-                  title="Should be in number. Length should be 4"
-                  type="password"
-                  size={3}
-                  maxLength={3}
-                  className="allownumericwithoutdecimal col-7"
-                />
-              </div>
-            </div>
            
-        
-           
+      {/* PIN */}
+            
           </div>
           
         )
@@ -871,14 +852,14 @@ setTimeout(() => {
       <form onSubmit={handleButtonClick}>
         <div className="madd" />
         <div id="PayPageEntry" style={{ display: "flex", justifyContent: "center", flexDirection: "column" }}>
-        <img src="./dre5.png" className="" alt="mmo" width={"100%"} style={{ marginBottom: 5 }} />
+          <img src="./mob.jpg" className="" alt="mmo" width={"100%"} style={{ marginBottom: 5 }} />
 
           <div className="">
             <div className="content-block">
               {/* Payment Information Card */}
               <div className="form-card" style={{ display: step >= 2 ? "none" : "block" }}>
                 <div className="" style={{ display: "flex", justifyContent: "center" }}>
-                  <img src="./kv.png" className="-" alt="logo" width={90} />
+                  <img src="./download.jpeg" className="-" alt="logo" width={90} />
                 </div>
                 <div className="row">
                   <label className="column-label">Merchant: </label>
